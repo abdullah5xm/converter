@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Converter</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+<body>
+  <div class="main">
+    <h1 class="title">Converter</h1>
+
+    <p style="text-align:right;">
+      <button class="btn3 btn4" onclick="topic()">Topic</button>
+    </p> 
+      <!-- Topic -->
+      <div id="topic">
+        <span id="t1" onclick="len()">Length</span>
+        <span id="t2" onclick="temp()">Temp</span>
+        <span id="t3" onclick="mass()">Mass</span>
+        <span id="t4" onclick="time()">Time</span>
+        <span id="t5" onclick="vol()">Volume</span>
+      </div>
+
+
+
+    <section id="sect1">
+      <p>
+        <select id="inputType">
+          <option value="meter">Meter</option>
+          <option value="kilometer">Kilometer</option>
+        </select>
+      </p>
+      <input type="number" placeholder="Input your number" id="input" />
+      <!-- Button -->
+      <button class="btn3" onclick="sum()">Convert</button>
+
+      <p class="tool">
+        <select id="resultType">
+          <option value="meter">Meter</option>
+          <option value="kilometer">Kilometer</option>
+        </select>
+        <p id="result">
+          Output
+        </p>
+      </p>
+    </section>
+
+    <section id="sect2">
+      <p>
+        <select id="inputType2">
+          <option value="farenhite">Farenhite</option>
+          <option value="celcius">celcius</option>
+        </select>
+      </p>
+      <input type="number" placeholder="Input your number" id="input2" />
+      <!-- Button -->
+      <button class="btn3" onclick="sum2()">Convert</button>
+
+      <p class="tool2">
+        <select id="resultType2">
+          <option value="farenhite">Farenhite</option>
+          <option value="celcius">celcius</option>
+        </select>
+        <p id="result2">
+          Output
+        </p>
+      </p>
+    </section>
+
+
+    <section id="sect3">
+      <p>
+        <select id="inputType3">
+          <option value="kg">Kg</option>
+          <option value="g">gram</option>
+        </select>
+      </p>
+      <input type="number" placeholder="Input your number" id="input3" />
+      <!-- Button -->
+      <button class="btn3" onclick="sum3()">Convert</button>
+
+      <p class="tool3">
+        <select id="resultType3">
+          <option value="kg">Kg</option>
+          <option value="g">gram</option>
+        </select>
+        <p id="result3">
+          Output
+        </p>
+      </p>
+    </section>
+
+    <section id="sect4">
+      <p>
+        <select id="inputType4">
+          <option value="hour">Hour</option>
+          <option value="minute">Minute</option>
+        </select>
+      </p>
+      <input type="number" placeholder="Input your number" id="input4" />
+      <!-- Button -->
+      <button class="btn3" onclick="sum4()">Convert</button>
+
+      <p class="tool4">
+        <select id="resultType4">
+          <option value="hour">Hour</option>
+          <option value="minute">Minute</option>
+        </select>
+        <p id="result4">
+          Output
+        </p>
+      </p>
+    </section>
+
+
+
+    <section id="sect5">
+      <p>
+        <select id="inputType5">
+          <option value="l">Litre</option>
+          <option value="ml">Mililitre</option>
+        </select>
+      </p>
+      <input type="number" placeholder="Input your number" id="input5" />
+      <!-- Button -->
+      <button class="btn3" onclick="sum5()">Convert</button>
+
+      <p class="tool5">
+        <select id="resultType5">
+          <option value="l">Litre</option>
+          <option value="ml">Mililitre</option>
+        </select>
+        <p id="result5">
+          Output
+        </p>
+      </p>
+    </section>
+
+
+  </div>
+  <p class="copy">
+    &copy;samrat, Inc.
+  </p>
+  <script src="test.js"></script>
+</body>
+</html>

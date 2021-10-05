@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #90CAF9;
+  font-family: Sans-Serif;
+}
+
+.main {
+  border-radius: 10px;
+  width: 90%;
+  background: #ECEFF1;
+  padding: 20px 20px 40px 20px;
+  position:relative;
+  overflow: hidden;
+  margin: 50px auto;
+  margin-bottom: 5px;
+}
+.title {
+  font-family: cursive;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#input ,#result, #input2, #result2,#input3 ,#result3, #input4, #result4,#input5,#result5{
+  padding: 10px 0px;
+  border: 2px solid black;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  background-color: #E0E0E0;
+}
+#result{
+  padding: 10px 0;
+}
+.btn3{
+  padding: 15px 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  background: #AEEA00;
+  border:none;
+  margin: 20px 0;
+  outline: none;
+}
+
+.btn4{
+  background: tomato;
+  color: white;
+}
+select{
+  padding:5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none;
+}
+
+#sect2,#sect3,#sect4,#sect5{
+  display: none;
+}
+#topic{
+  position: absolute;
+  top: 200px;
+  right: -100px;
+  transition: all 1s;
+}
+#topic span{
+  padding: 10px;
+  display: block;
+  border: 1px solid black;
+  width: 100px;
+  border-radius:20px 0 0 20px ;
+}
+#topic #t1{
+  background: #26a69a;
+  transition: all 1s;
+}
+#topic #t2{
+  background: #ffab00;
+  transition: all 1.2s;
+}
+#topic #t3{
+  background: #ff8a80;
+  transition: all 1.4s; 
+}
+#topic #t4{
+  background: #7986cb;
+  transition: all 1.6s;
+}
+#topic #t5{
+  background: #ce93d8;
+  transition: all 1.8s; 
+}
+.copy {
+      text-align: center;
+    }
